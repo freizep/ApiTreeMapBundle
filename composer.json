@@ -1,0 +1,23 @@
+{
+    "name": "freizep/api-tree-map-bundle",
+    "description": "Generates a treemap for your REST API",
+    "keywords": ["api", "documentation", "doc", "rest", "treemap"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freizep",
+            "homepage": "https://github.com/freizep"
+        }
+    ],
+    "require": {
+        "nelmio/api-doc-bundle": "2.5.*",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/console": "~2.1",
+        "friendsofsymfony/rest-bundle": "~1.0"
+    },
+    "autoload": {
+        "psr-0": { "Freizep\\ApiTreeMapBundle": "" }
+    },
+    "target-dir": "Freizep/ApiTreeMapBundle"
+}
